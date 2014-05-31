@@ -10,3 +10,4 @@ Optionals
 * [ ] Flashlight
 * [ ] Jacket / Raincut
 * [ ] Arm/Knee warmers
+* [ ] Towel
