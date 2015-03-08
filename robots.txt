@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://ferransalguero.github.io/sitemap.xml 
