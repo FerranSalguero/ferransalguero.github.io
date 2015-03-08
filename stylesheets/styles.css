@@ -1,10 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
+  /*padding:50px;*/
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
+}
+
+.container, .container-fluid {
+    max-width: 860px;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar {
+  border: 0;
+}
+
+.navbar > .container-fluid {
+  border-bottom: 1px #e7e7e7 solid;
+  max-width: 930px;
+  /*padding-left: 25px;*/
+}
+
+.navbar a {
+    font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,6 +70,7 @@ a small {
 .wrapper {
   width:860px;
   margin:0 auto;
+  padding-top: 75px;
 }
 
 blockquote {
@@ -95,13 +118,13 @@ img {
   max-width:100%;
 }
 
-header {
+/*header {
   width:270px;
   float:left;
   position:fixed;
-}
+}*/
 
-header ul {
+/*header ul {
   list-style:none;
   height:40px;
   
@@ -119,16 +142,16 @@ header ul {
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
   width:270px;
-}
+}*/
 
-header li {
+/*header li {
   width:89px;
   float:left;
   border-right:1px solid #d2d2d2;
   height:40px;
-}
+}*/
 
-header ul a {
+/*header ul a {
   line-height:1;
   font-size:11px;
   color:#999;
@@ -136,14 +159,14 @@ header ul a {
   text-align:center;
   padding-top:6px;
   height:40px;
-}
+}*/
 
 strong {
   color:#222;
   font-weight:700;
 }
 
-header ul li + li {
+/*header ul li + li {
   width:88px;
   border-left:1px solid #fff;
 }
@@ -157,7 +180,7 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
-}
+}*/
 
 section {
   width:500px;
@@ -183,6 +206,11 @@ footer {
   bottom:50px;
 }
 
+.well {
+  border: 0;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
@@ -196,9 +224,9 @@ footer {
     width:auto;
   }
   
-  header {
+  /*header {
     padding-right:320px;
-  }
+  }*/
   
   section {
     border:1px solid #e5e5e5;
@@ -211,11 +239,11 @@ footer {
     display:inline;
   }
   
-  header ul {
+  /*header ul {
     position:absolute;
     right:50px;
     top:52px;
-  }
+  }*/
 }
 
 @media print, screen and (max-width: 720px) {
@@ -223,9 +251,9 @@ footer {
     word-wrap:break-word;
   }
   
-  header {
+  /*header {
     padding:0;
-  }
+  }*/
   
   header ul, header p.view {
     position:static;
@@ -241,9 +269,9 @@ footer {
     padding:15px;
   }
   
-  header ul {
+  /*header ul {
     display:none;
-  }
+  }*/
 }
 
 @media print {
