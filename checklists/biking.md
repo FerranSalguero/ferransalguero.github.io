@@ -1,3 +1,9 @@
+---
+layout: checklists
+title: "Biking checklist"
+date: 2014-05-30 +0100
+---
+
 * [ ] Culotte / Shorts + Underpants + Belt
 * [ ] Maillot
 * [ ] GPS + HR + Route
@@ -6,6 +12,7 @@
 
 
 Optionals
+
 * [ ] Backpack
 * [ ] Flashlight
 * [ ] Jacket / Raincut
