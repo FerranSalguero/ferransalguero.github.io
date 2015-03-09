@@ -12,8 +12,14 @@
 				</button>
 				<h1><a href="../" class="navbar-brand">Ferran Salguero</a></h1>
 			</div>
-			<nav class="collapse navbar-collapse bs-navbar-collapse pull-right" role="navigation">
+			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 				<ul class="nav navbar-nav">
+					{% if page.private %}
+					<li class="active"><a href="/checklists/">checklists</a></li>
+					{% endif %}
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
 					<li><a rel="profile" href="https://twitter.com/FerranSalguero"><i class="fa fa-twitter"></i></a></li>
 					<li><a rel="profile" href="http://es.linkedin.com/in/FerranSalguero"><i class="fa fa-linkedin"></i></a></li>
 				</ul>

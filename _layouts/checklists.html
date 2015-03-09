@@ -1,38 +1,10 @@
-<!DOCTYPE HTML>
-{% if site.lang %}
-<html lang="{{ site.lang }}">
-{% else %}
-<html>
-{% endif %}
-<head>
-	<meta charset="utf-8">
-	<meta name="author" content="{{ site.author }}">
-	<meta name="description" content="{{ description }}">
-	{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+---
+layout: default
+---
 
-	<!-- http://t.co/dKP3o1e -->
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}
-	<link rel="canonical" href="{{ canonical }}">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700,800' rel='stylesheet' type='text/css'> -->
-	<link href="/favicon.ico" rel="shortcut icon">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link href="/stylesheets/checklists.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<!-- <link rel="stylesheet" href="/css/code.css" type="text/css"> -->
-	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="/javascripts/checklists.js"></script>
-
-	{% include google_analytics.html %}
-</head>
-<body>
-	<div class="container">
-		<div class="col-xs-12">
-			{{ content | replace: '<li>[ ]', '<li class = "box">' | replace: '<li>[x]', '<li class = "box_done">'  }}
-		</div>
+<div class="container">
+	<div class="col-xs-12">
+		{{ content | replace: '<li>[ ]', '<li class = "box">' | replace: '<li>[x]', '<li class = "box_done">'  }}
 	</div>
+</div>
 </body>
