@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="container">
-	<div class="col-xs-12">
+<div class="container checklists">
+	<div class="col-xs-12 well shadow">
 		{{ content | replace: '<li>[ ]', '<li class = "box">' | replace: '<li>[x]', '<li class = "box_done">'  }}
 	</div>
 </div>

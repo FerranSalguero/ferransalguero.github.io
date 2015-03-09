@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: checklists
 private: true
 title: "Biking checklist"
 date: 2014-05-30 +0100
