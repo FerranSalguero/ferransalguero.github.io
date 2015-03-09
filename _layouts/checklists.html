@@ -27,10 +27,12 @@
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="/javascripts/checklists.js"></script>
 
-  	{% include google_analytics.html %}
+	{% include google_analytics.html %}
 </head>
 <body>
-
-{{ content | replace: '<li>[ ]', '<li class = "box">' | replace: '<li>[x]', '<li class = "box_done">'  }}
-
+	<div class="container">
+		<div class="col-xs-12">
+			{{ content | replace: '<li>[ ]', '<li class = "box">' | replace: '<li>[x]', '<li class = "box_done">'  }}
+		</div>
+	</div>
 </body>

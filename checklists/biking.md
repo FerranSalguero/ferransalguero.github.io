@@ -4,6 +4,9 @@ title: "Biking checklist"
 date: 2014-05-30 +0100
 ---
 
+Biking
+======
+
 * [ ] Culotte / Shorts + Underpants + Belt
 * [ ] Maillot
 * [ ] GPS + HR + Route
@@ -11,7 +14,7 @@ date: 2014-05-30 +0100
 * [ ] Padlock key
 
 
-Optionals
+Optionals:
 
 * [ ] Backpack
 * [ ] Flashlight

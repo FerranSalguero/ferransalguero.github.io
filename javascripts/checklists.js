@@ -1,3 +1,3 @@
 $(function() {
-	$("li.box").prepend("<input type='checkbox' />");
+	$("li.box").prepend("<input type='checkbox' />").wrapInner("<label></label>");
 });
