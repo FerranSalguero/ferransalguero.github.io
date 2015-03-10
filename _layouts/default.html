@@ -1,40 +1,48 @@
 {% include head.html %}
 
 <body>
-	<header role="banner" class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<h1><a href="../" class="navbar-brand">Ferran Salguero</a></h1>
-			</div>
-			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-				<ul class="nav navbar-nav">
-					<li><a href="/services">Services</a></li>
-					<li><a href="/work">Work</a></li>
-					<li><a href="/contact">Contact</a></li>
-					<li><a href="/blog">Blog</a>
-					{% if page.private %}
-					<li class="active"><a href="/checklists/">Checklists</a></li>
-					{% endif %}
+	
+	<div class="wrapper">
+		<header role="banner" class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1><a href="../" class="navbar-brand">Ferran Salguero</a></h1>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav">
+						<li><a href="/services">Services</a></li>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/blog">Blog</a>
+							{% if page.private %}
+							<li class="active"><a href="/checklists/">Checklists</a></li>
+							{% endif %}
 
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a rel="profile" href="https://twitter.com/FerranSalguero"><i class="fa fa-twitter"></i></a></li>
-					<li><a rel="profile" href="http://es.linkedin.com/in/FerranSalguero"><i class="fa fa-linkedin"></i></a></li>
-				</ul>
-			</nav>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a rel="profile" href="https://twitter.com/FerranSalguero"><i class="fa fa-twitter"></i></a></li>
+							<li><a rel="profile" href="http://es.linkedin.com/in/FerranSalguero"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</header>
+
+			{{ content }}
 
 		</div>
-	</header>
-	<div class="wrapper">
-
-		{{ content }}
-
-	</div>
-</body>
-</html>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-3">&copy;2015 Ferran Salguero</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	</html>
