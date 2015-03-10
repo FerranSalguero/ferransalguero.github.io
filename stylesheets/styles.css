@@ -29,8 +29,17 @@ html, body {
   /*padding-left: 25px;*/
 }
 
+footer .container-fluid {
+  border-top: 1px #e7e7e7 solid;
+  max-width: 930px;;
+}
+
 .navbar a {
     font-size: 18px;
+}
+
+.credit {
+  margin: 20px 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,6 +85,7 @@ a small {
   max-width:860px;
   margin:0 auto -60px;
   padding-top: 75px;
+  padding-bottom: 30px;
   min-height: 100%;
   height: auto !important
 }
@@ -206,7 +216,7 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
+footer, .push {
   /*width:270px;
   float:left;
   position:fixed;
