@@ -79,6 +79,15 @@ h2 {
   font-size: 20px;
 }
 
+#contact h2 {
+  color: #B66382;
+  border-bottom: 1px dotted;
+}
+
+hr {
+  border-top: 1px dotted #e5e5e5;
+}
+
 h3, h4, h5, h6 {
   color:#494949;
 }
@@ -225,8 +234,8 @@ header ul a strong {
   }
 
   hr {
-    border:0;
-    background:#e5e5e5;
+    /*border:0;*/
+    background: transparent;
     height:1px;
     margin:0 0 20px;
   }
