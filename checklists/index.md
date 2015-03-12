@@ -5,6 +5,8 @@ title: Checklists
 all_lists:
 - biking
 - hiking
+scripts:
+- checklists-index
 ---
 
 <div class="container-fluid">
