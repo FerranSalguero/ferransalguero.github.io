@@ -3,6 +3,12 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+$primary-color: #B66382;
+$back-color: #fff;
+$container-width: 860px;
+$border-color: #e7e7e7;
+$header-line-width: 930px;
+
 body {
   /*padding:50px;*/
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -15,7 +21,7 @@ html, body {
 }
 
 a.navbar-brand:hover {
-  color: #B66382;
+  color: $primary-color;
   transition-duration: 0.5s;
 }
 
@@ -29,22 +35,22 @@ a.navbar-brand:hover {
 }
 
 .container, .container-fluid {
-  max-width: 860px;
+  max-width: $container-width;
 }
 
 .navbar {
   border: 0;
-  background-color: #fff;
+  background-color: $back-color;
   > .container-fluid {
-    border-bottom: 1px #e7e7e7 solid;
-    max-width: 930px;
+    border-bottom: 1px $border-color solid;
+    max-width: $header-line-width;
     /*padding-left: 25px;*/
   }
 }
 
 footer .container-fluid {
-  border-top: 1px #e7e7e7 solid;
-  max-width: 930px;
+  border-top: 1px $border-color solid;
+  max-width: $header-line-width;
 }
 
 .navbar a {
@@ -82,12 +88,12 @@ h2 {
 }
 
 #contact h2 {
-  color: #B66382;
+  color: $primary-color;
   border-bottom: 1px dotted;
 }
 
 hr {
-  border-top: 1px dotted #e5e5e5;
+  border-top: 1px dotted $border-color;
 }
 
 h3, h4, h5, h6 {
@@ -107,7 +113,7 @@ a {
 }
 
 .wrapper {
-  max-width: 860px;
+  max-width: $container-width;
   margin: 0 auto -60px;
   padding-top: 75px;
   padding-bottom: 30px;
@@ -116,7 +122,7 @@ a {
 }
 
 blockquote {
-  border-left: 1px solid #e5e5e5;
+  border-left: 1px solid $border-color;
   margin: 0;
   padding: 0 0 0 20px;
   font-style: italic;
@@ -135,7 +141,7 @@ pre {
   padding: 8px 15px;
   background: #f8f8f8;
   border-radius: 5px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid $border-color;
   overflow-x: auto;
 }
 
@@ -147,7 +153,7 @@ table {
 th, td {
   text-align: left;
   padding: 5px 10px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid $border-color;
 }
 
 dt {
@@ -274,7 +280,7 @@ header ul a strong {
     padding-right:320px;
     }*/
     section {
-      border: 1px solid #e5e5e5;
+      border: 1px solid $border-color;
       border-width: 1px 0;
       padding: 20px 0;
       margin: 0 0 20px;
