@@ -9,6 +9,7 @@ $container-width: 860px;
 $border-color: #e7e7e7;
 $header-line-width: 930px;
 $separator-style: dotted;
+$default-font-color: #777;
 
 body {
   /*padding:50px;*/
@@ -21,9 +22,20 @@ html, body {
   height: 100%;
 }
 
-a.navbar-brand:hover {
-  color: $primary-color;
-  transition-duration: 0.5s;
+a
+{
+  color: $default-font-color;
+  font-weight: 400;
+  text-decoration: none;
+  small {
+    font-size: 11px;
+    margin-top: -0.6em;
+    display: block;
+  }
+  &.navbar-brand:hover {
+    color: $primary-color;
+    transition-duration: 0.5s;
+  }
 }
 
 .title:before {
@@ -47,6 +59,9 @@ a.navbar-brand:hover {
     max-width: $header-line-width;
     /*padding-left: 25px;*/
   }
+  a {
+    font-size: 18px;
+  }
 }
 
 footer .container-fluid {
@@ -54,9 +69,7 @@ footer .container-fluid {
   max-width: $header-line-width;
 }
 
-.navbar a {
-  font-size: 18px;
-}
+.navbar 
 
 .credit {
   margin: 20px 0;
@@ -99,18 +112,6 @@ hr {
 
 h3, h4, h5, h6 {
   color: #494949;
-}
-
-a {
-  color: #39c;
-  font-weight: 400;
-  text-decoration: none;
-  small {
-    font-size: 11px;
-    color: #777;
-    margin-top: -0.6em;
-    display: block;
-  }
 }
 
 .wrapper {
