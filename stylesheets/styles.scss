@@ -8,6 +8,7 @@ $back-color: #fff;
 $container-width: 860px;
 $border-color: #e7e7e7;
 $header-line-width: 930px;
+$separator-style: dotted;
 
 body {
   /*padding:50px;*/
@@ -42,14 +43,14 @@ a.navbar-brand:hover {
   border: 0;
   background-color: $back-color;
   > .container-fluid {
-    border-bottom: 1px $border-color solid;
+    border-bottom: 1px $primary-color $separator-style;
     max-width: $header-line-width;
     /*padding-left: 25px;*/
   }
 }
 
 footer .container-fluid {
-  border-top: 1px $border-color solid;
+  border-top: 1px $primary-color $separator-style;
   max-width: $header-line-width;
 }
 
@@ -89,11 +90,11 @@ h2 {
 
 #contact h2 {
   color: $primary-color;
-  border-bottom: 1px dotted;
+  border-bottom: 1px $separator-style;
 }
 
 hr {
-  border-top: 1px dotted $border-color;
+  border-top: 1px $separator-style $border-color;
 }
 
 h3, h4, h5, h6 {
