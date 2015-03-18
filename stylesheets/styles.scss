@@ -38,6 +38,17 @@ a
   }
 }
 
+.navbar-brand {
+  span {
+    display: inline-block;
+    margin-top: -18px;
+    img {
+      margin-top: 10px;
+      margin-right: 5px;
+    }
+  }
+}
+
 .title:before {
   content: '';
   display: block;
@@ -67,9 +78,7 @@ a
 footer .container-fluid {
   border-top: 1px $primary-color $separator-style;
   max-width: $header-line-width;
-}
-
-.navbar 
+} 
 
 .credit {
   margin: 20px 0;
