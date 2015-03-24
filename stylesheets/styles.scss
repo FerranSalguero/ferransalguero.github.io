@@ -63,7 +63,7 @@ a
 }
 
 .nav > li > a {
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
         background-color: inherit;
         border-bottom: 5px solid $primary-color;
         padding-bottom: 10px;
