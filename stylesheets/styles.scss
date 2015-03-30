@@ -63,12 +63,12 @@ a
 }
 
 .nav > li > a {
-    &:hover, &:active, &:focus {
-        background-color: inherit;
-        border-bottom: 5px solid $primary-color;
-        padding-bottom: 10px;
-        color: $primary-color;
-    }
+  &:hover, &:active, &:focus {
+    background-color: inherit;
+    border-bottom: 5px solid $primary-color;
+    padding-bottom: 10px;
+    color: $primary-color;
+  }
 }
 
 .navbar {
@@ -95,6 +95,27 @@ footer .container-fluid {
 
 #contact i {
   margin-right: 3px;
+}
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  background-color: #666;
+  line-height: 1em;
+  border-radius: 2px;
+  opacity: 0.8;
+  font-size: 32px;
+  color: #fff;
+  padding-left: 10px;
+
+  &:hover {
+    background-color: $primary-color;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
