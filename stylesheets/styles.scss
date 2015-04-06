@@ -32,11 +32,11 @@ a
     font-size: 11px;
     margin-top: -0.6em;
     display: block;
-}
-&.navbar-brand:hover {
+  }
+  &.navbar-brand:hover {
     color: $primary-color;
     transition-duration: 0.5s;
-}
+  }
 }
 
 .navbar-brand {
@@ -46,8 +46,8 @@ a
     img {
       margin-top: 10px;
       margin-right: 5px;
+    }
   }
-}
 }
 
 .title:before {
@@ -64,13 +64,13 @@ a
 }
 
 header {
-   .nav > li > a {
-      &:hover, &:active, &:focus {
-        background-color: inherit;
-        border-bottom: 5px solid $primary-color;
-        padding-bottom: 10px;
-        color: $primary-color;
-    }
+ .nav > li > a {
+  &:hover, &:active, &:focus {
+    background-color: inherit;
+    border-bottom: 5px solid $primary-color;
+    padding-bottom: 10px;
+    color: $primary-color;
+  }
 }
 }
 
@@ -81,10 +81,10 @@ header {
     border-bottom: 1px $primary-color $separator-style;
     max-width: $header-line-width;
     /*padding-left: 25px;*/
-}
-a {
+  }
+  a {
     font-size: 18px;
-}
+  }
 }
 
 footer .container-fluid {
@@ -118,7 +118,7 @@ footer .container-fluid {
 
   &:hover {
     background-color: $primary-color;
-}
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -259,7 +259,7 @@ img {
   strong {
     color: #222;
     font-weight: 700;
-}
+  }
 
 /*header ul li + li {
   width:88px;
@@ -281,20 +281,20 @@ header ul a strong {
     width: 500px;
     float: right;
     padding-bottom: 50px;
-}
+  }
 
-small {
+  small {
     font-size: 11px;
-}
+  }
 
-hr {
+  hr {
     /*border:0;*/
     background: transparent;
     height: 1px;
     margin: 0 0 20px;
-}
+  }
 
-footer, .push {
+  footer, .push {
   /*width:270px;
   float:left;
   position:fixed;
@@ -329,18 +329,18 @@ footer, .push {
       border-width: 1px 0;
       padding: 20px 0;
       margin: 0 0 20px;
-  }
-  header a small {
+    }
+    header a small {
       display: inline;
-  }
+    }
   /*header ul {
     position:absolute;
     right:50px;
     top:52px;
     }*/
-}
+  }
 
-@media print, screen and (max-width: 720px) {
+  @media print, screen and (max-width: 720px) {
   /*  body {
       word-wrap:break-word;
       }*/
@@ -352,22 +352,22 @@ footer, .push {
       }*/
       pre, code {
         word-wrap: normal;
+      }
     }
-}
 
-@media print, screen and (max-width: 480px) {
+    @media print, screen and (max-width: 480px) {
   /*  body {
       padding:15px;
       }*/
   /*header ul {
     display:none;
     }*/
-}
+  }
 
-@media print {
+  @media print {
   /*  body {
       padding:0.4in;
       font-size:12pt;
       color:#444;
       }*/
-  }
+    }
