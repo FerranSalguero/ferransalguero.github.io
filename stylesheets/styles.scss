@@ -61,6 +61,15 @@ header a
   }
 }
 
+.img-container
+{
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
 .title:before {
   content: '';
   display: block;
