@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,400italic,300,400);
 
 $primary-color: #B66382;
 $back-color: #fff;
@@ -15,7 +15,7 @@ $well-bg: #f8f8f8;
 body {
   /*padding:50px;*/
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #777;
+  //color: #777;
   font-weight: 300;
 }
 
@@ -23,20 +23,31 @@ html, body {
   height: 100%;
 }
 
-a
-{
-  color: $default-font-color;
+a {
   font-weight: 400;
   text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+header a
+{
+  color: $default-font-color;
   small {
     font-size: 11px;
     margin-top: -0.6em;
     display: block;
   }
-  &.navbar-brand:hover {
-    color: $primary-color;
-    transition-duration: 0.5s;
+  &.navbar-brand
+  {
+    &:hover {
+      color: $primary-color;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+    }
   }
+
 }
 
 .navbar-brand {
@@ -64,14 +75,14 @@ a
 }
 
 header {
- .nav > li > a {
-  &:hover, &:active, &:focus {
-    background-color: inherit;
-    border-bottom: 5px solid $primary-color;
-    padding-bottom: 10px;
-    color: $primary-color;
+  .nav > li > a {
+    &:hover, &:active, &:focus {
+      background-color: inherit;
+      border-bottom: 5px solid $primary-color;
+      padding-bottom: 10px;
+      color: $primary-color;
+    }
   }
-}
 }
 
 .navbar {
@@ -152,9 +163,9 @@ hr {
   border-top: 1px $separator-style $border-color;
 }
 
-h3, h4, h5, h6 {
-  color: #494949;
-}
+// h3, h4, h5, h6 {
+//   color: #494949;
+// }
 
 .wrapper {
   max-width: $container-width;
