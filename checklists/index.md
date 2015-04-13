@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Checklists
+private: true
 all_lists:
 - biking
 - hiking
