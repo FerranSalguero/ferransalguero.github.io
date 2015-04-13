@@ -19,6 +19,7 @@ body {
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   //color: #777;
   font-weight: 300;
+  position: relative;
 }
 
 html, body {
@@ -85,16 +86,26 @@ header a
   max-width: $container-width;
 }
 
+@mixin active-nav() {
+  background-color: inherit;
+  border-bottom: 5px solid $primary-color;
+  padding-bottom: 10px;
+  color: $primary-color;
+}
+
 header {
-  .nav > li > a {
-    transition: all 0.15s ease-in-out 0s;
-    &:hover, &:active, &:focus {
-      background-color: inherit;
-      border-bottom: 5px solid $primary-color;
-      padding-bottom: 10px;
-      color: $primary-color;
+  .nav { 
+    li > a {
+      transition: all 0.15s ease-in-out 0s;
+      &:hover, &:active, &:focus {
+        @include active-nav();     
+      }
     }
-  }
+
+    li.active > a {
+      @include active-nav();
+    }
+  }  
 }
 
 .navbar {
