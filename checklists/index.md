@@ -5,6 +5,7 @@ private: true
 all_lists:
 - biking
 - hiking
+- software
 scripts:
 - checklists-index
 ---
