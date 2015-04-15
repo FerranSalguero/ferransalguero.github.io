@@ -82,7 +82,7 @@ header a
   margin-top: -60px;
 }
 
-.container, .container-fluid {
+.container {
   max-width: $container-width;
 }
 
@@ -158,6 +158,29 @@ footer .container-fluid {
 
   &:hover {
     background-color: $primary-color;
+  }
+}
+
+.jumbotron {
+  background-color: transparent;
+  p {
+    font-size: 16px;
+  }
+}
+
+.working {
+  background: url("/images/working-bg.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .jumbotron {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    h2 {
+      font-size: 30px;
+      text-align: center;
+      color: #fff;
+    }
   }
 }
 
