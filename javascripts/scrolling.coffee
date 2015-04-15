@@ -12,3 +12,8 @@ $ ->
     $('body,html').animate({
       scrollTop: 0
       }, 600)
+
+  selected = $("#main-nav").attr("data-selected")
+  return if !selected
+  $("#main-nav > li[data-id='" + selected + "']").addClass("active")
+    

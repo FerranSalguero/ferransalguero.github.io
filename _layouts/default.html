@@ -15,11 +15,11 @@
 					<h1><a href="../" class="navbar-brand"><span><img height="52" src="/images/logo-nav.png" />Ferran Salguero</span></a></h1>
 				</div>
 				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav" id="main-nav" data-selected="{{ page.selected-nav }}">
 						<li><a href="#services">Services</a></li>
 						<li><a href="#portfolio">Work</a></li>
 						<li><a href="#contact">Contact</a></li>
-						<li><a href="/blog">Blog</a>
+						<li data-id="blog"><a href="/blog.html">Blog</a>
 							{% if page.private %}
 							<li class="active"><a href="/checklists/">Checklists</a></li>
 							{% endif %}
