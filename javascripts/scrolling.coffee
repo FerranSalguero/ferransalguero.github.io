@@ -2,6 +2,11 @@
 ---
 
 $ ->
+  $('#main-nav li a').click (event) ->
+    event.preventDefault()
+    $($(this).attr('data-target'))[0].scrollIntoView()
+    scrollBy(0, -60)
+  
   $(window).scroll ->
     if $(this).scrollTop() != 0
       $('#back-to-top').fadeIn();
