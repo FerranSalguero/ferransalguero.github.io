@@ -1,6 +1,6 @@
 {% include head.html %}
 
-<body data-spy="scroll" data-target="#main-navbar">
+<body data-spy="scroll" data-offset="60" data-target="#main-navbar">
 
 	<div class="wrapper">
 		<header role="banner" class="navbar navbar-fixed-top">
@@ -18,7 +18,7 @@
 					<ul class="nav navbar-nav" id="main-nav" data-selected="{{ page.selected-nav }}">
 						<!-- <li><a href="#services">Services</a></li>
 						<li><a href="#portfolio">Work</a></li> -->
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="/#contact" data-target="#contact">Contact</a></li>
 						<!--<li data-id="blog"><a href="/blog.html">Blog</a>-->
 							{% if page.private %}
 							<li class="active"><a href="/checklists/">Checklists</a></li>
