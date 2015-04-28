@@ -26,5 +26,3 @@ Optionals:
 * [ ] Pump
 * [ ] Tube
 * [ ] Food
-
-[Test](http://wheretobuy.apphb.com){:rel='nofollow'}
