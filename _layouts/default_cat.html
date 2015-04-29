@@ -1,0 +1,48 @@
+{% include head.html %}
+
+<body data-spy="scroll" data-offset="60" data-target="#main-navbar">
+
+	<div class="wrapper">
+		<header role="banner" class="navbar navbar-fixed-top">
+			<div class="container-fluid" id="main-navbar">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+						<span class="sr-only">Alternar navegació</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1><a href="/cat/" class="navbar-brand"><span><img height="52" src="/images/logo-nav.png" />Ferran Salguero</span></a></h1>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav" id="main-nav" data-selected="{{ page.selected-nav }}">
+						<!-- <li><a href="#services">Services</a></li>
+						<li><a href="#portfolio">Work</a></li> -->
+						<li><a href="/cat/#contact" data-target="#contact">Contacte</a></li>
+						<!--<li data-id="blog"><a href="/blog.html">Blog</a>-->
+
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                   <li><a href="/" data-toggle="tooltip" title="English version" data-placement="bottom">en</a></li>
+                   <li><a rel="profile" data-toggle="tooltip" href="https://twitter.com/FerranSalguero" title="Segueix-me a Twitter @FerranSalguero" data-placement="bottom"><i class="fa fa-twitter"></i></a></li>
+                   <li><a rel="profile" data-toggle="tooltip" href="http://es.linkedin.com/in/FerranSalguero" title="Conecta amb mi a LinkeIn" data-placement="bottom"><i class="fa fa-linkedin"></i></a></li>
+                   <li><a rel="profile" data-toggle="tooltip" href="{{ site.github.owner_url }}" title="Alguns dels meus treballs a GitHub" data-placement="bottom"><i class="fa fa-github"></i></a></li>
+               </ul>
+           </nav>
+
+       </div>
+   </header>
+
+   {{ content }}
+
+   <div class="push"></div>
+
+</div>
+
+{% include footer.html %}
+
+<div id="back-to-top" class="container">
+    <i class="fa fa-caret-up"></i>
+</div>
+</body>
+</html>
