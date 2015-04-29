@@ -12,7 +12,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1><a href="../" class="navbar-brand"><span><img height="52" src="/images/logo-nav.png" />Ferran Salguero</span></a></h1>
+					<h1><a href="/" class="navbar-brand"><span><img height="52" src="/images/logo-nav.png" />Ferran Salguero</span></a></h1>
 				</div>
 				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 					<ul class="nav navbar-nav" id="main-nav" data-selected="{{ page.selected-nav }}">
@@ -20,31 +20,32 @@
 						<li><a href="#portfolio">Work</a></li> -->
 						<li><a href="/#contact" data-target="#contact">Contact</a></li>
 						<!--<li data-id="blog"><a href="/blog.html">Blog</a>-->
-							{% if page.private %}
-							<li class="active"><a href="/checklists/">Checklists</a></li>
-							{% endif %}
+                       {% if page.private %}
+                       <li class="active"><a href="/checklists/">Checklists</a></li>
+                       {% endif %}
 
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li><a rel="profile" href="https://twitter.com/FerranSalguero"><i class="fa fa-twitter"></i></a></li>
-							<li><a rel="profile" href="http://es.linkedin.com/in/FerranSalguero"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a rel="profile" href="{{ site.github.owner_url }}"><i class="fa fa-github"></i></a></li>
-                        </ul>
-                    </nav>
+                   </ul>
+                   <ul class="nav navbar-nav navbar-right">
+                       <li><a href="/cat/" data-toggle="tooltip" title="Versió en català" data-placement="bottom">cat</a></li>
+                       <li><a rel="profile" data-toggle="tooltip" href="https://twitter.com/FerranSalguero" title="Follow me on Twitter @FerranSalguero" data-placement="bottom"><i class="fa fa-twitter"></i></a></li>
+                       <li><a rel="profile" data-toggle="tooltip" href="http://es.linkedin.com/in/FerranSalguero" title="Connect with me on LinkeIn" data-placement="bottom"><i class="fa fa-linkedin"></i></a></li>
+                       <li><a rel="profile" data-toggle="tooltip" href="{{ site.github.owner_url }}" title="Check some of my work on GitHub" data-placement="bottom"><i class="fa fa-github"></i></a></li>
+                   </ul>
+               </nav>
 
-                </div>
-            </header>
+           </div>
+       </header>
 
-            {{ content }}
+       {{ content }}
 
-            <div class="push"></div>
+       <div class="push"></div>
 
-        </div>
+   </div>
 
-        {% include footer.html %}
+   {% include footer.html %}
 
-        <div id="back-to-top" class="container">
-            <i class="fa fa-caret-up"></i>
-        </div>
-    </body>
-    </html>
+   <div id="back-to-top" class="container">
+    <i class="fa fa-caret-up"></i>
+</div>
+</body>
+</html>
