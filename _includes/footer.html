@@ -9,3 +9,12 @@
         </div>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<!--<script src="/js/slash.js" async></script>-->
+<script src="http://ferransalguero.github.io/bootstrap-blog/dist/js/bootstrap.js"></script>
+<script src="/javascripts/scrolling.js"></script>
+{% for script in page.scripts %}
+<script src="/javascripts/{{ script }}.js"></script>
+{% endfor %}
+
+{% include google_analytics.html %}
