@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 Internet Explorer version testing with VMs and Vagrant
 ======================================================
 
