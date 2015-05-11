@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: article
 title: Internet Explorer version testing with VMs and Vagrant
 ---
 
-
-Internet Explorer version testing with VMs and Vagrant
-======================================================
 
 To simplify testing with different versions of Internet Explorer and due to Explorer's tight coupling with the operating system version, we need to test this different versions on virtual machines that contain the desired version of Explorer. Thanks to [modern.ie](https://www.modern.ie/){: rel="nofollow"} achieving this is a simple task as they provide already configured virtual machines with the different versions of Explorer.
 
