@@ -32,9 +32,10 @@ timezone: Europe/Berlin
 markdown: kramdown
 # redcarpet:
 #   extensions: ["tables"]
-permalink: /archive/:year/:month/:day/:title/
+#permalink: /archive/:year/:month/:day/:title/
+permalink: /blog/:title/
 paginate: 20
-paginate_path: "page/:num"
+paginate_path: "/blog/page/:num"
 category_dir: categories
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 sass:
