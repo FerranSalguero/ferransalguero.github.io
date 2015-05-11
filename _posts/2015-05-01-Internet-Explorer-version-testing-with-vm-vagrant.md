@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Internet Explorer version testing with VMs and Vagrant
 ---
 
 
