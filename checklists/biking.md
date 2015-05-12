@@ -2,6 +2,7 @@
 layout: checklists
 title: "Biking checklist"
 date: 2014-05-30 +0100
+sitemap: false
 ---
 
 Biking

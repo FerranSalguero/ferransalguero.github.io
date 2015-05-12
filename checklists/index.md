@@ -8,6 +8,7 @@ all_lists:
 - software
 scripts:
 - checklists-index
+sitemap: false
 ---
 
 <div class="container-fluid">

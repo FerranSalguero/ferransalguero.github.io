@@ -2,6 +2,7 @@
 layout: checklists
 title: "Software checklist"
 date: 2014-11-16 +0100
+sitemap: false
 ---
 
 Software
