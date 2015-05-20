@@ -9,4 +9,4 @@ You can check the production date on the module warranty sticker.
 
 ![Ripjaws module date](/images/posts/ripjaws.jpg)
 
-For this reason I am searching actively for a model of similar dates of Jun 2014, if you are a store and happen to have one model and willing to send to Spain please let me know. Thanks in advance!
+For this reason I am searching actively for a model of similar dates of Jun 2014, if you are a store or a particular and happen to have one model and willing to send to Spain please let me know. Thanks in advance!
