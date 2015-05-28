@@ -7,7 +7,7 @@ url: http://ferransalguero.github.io
 title: Ferran Salguero
 subtitle: 
 gravatar_url: 
-subscribe_rss: 
+subscribe_rss: /atom.xml
 
 # Github repositories
 github_user: fsalguero
@@ -44,3 +44,9 @@ sass:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+
+
+collections:
+  portfolios:
+    output: true
+    permalink: /portfolio/:path/

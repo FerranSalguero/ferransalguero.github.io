@@ -1,5 +1,5 @@
 ---
-layout: nil
+
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -13,8 +13,6 @@ layout: nil
     <name><![CDATA[{{ site.author | strip_html }}]]></name>
     {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
-
   {% for post in site.posts limit: 20 %}
   {% unless post.redirect %}
   <entry>
