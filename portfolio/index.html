@@ -1,0 +1,69 @@
+---
+layout: default
+title: Portfolio
+styles: portfolio
+selected-nav: portfolio
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 well shadow">
+      <h1>Portfolio</h1>
+
+      <p>
+        Example of some representative work that I built during my career
+      </p>
+      <hr />
+      <div class="row">
+        <div class="col-xs-12 col-sm-9">
+          <ul id="portfolio-filter" class="nav nav-pills">
+            <li class=""><a href="#" class="filter" data-filter="*">All</a></li>
+            <!-- <li><a href="#" class="filter" data-filter=".corporate">Corporate</a></li>
+            <li><a href="#" class="filter" data-filter=".multilingual">Multilingual</a></li>
+            <li class="active"><a href="#" class="filter" data-filter=".health">Health</a></li>
+            <li><a href="#" class="filter" data-filter=".public-NGOs">Public sector &amp; NGO's</a></li> -->
+          </ul>
+        </div>
+        <div class="col-sm-3 hidden-xs">
+          <ul class="nav nav-pills pull-right ">
+            <li class="pull-right scale-grid"><a onclick="$('#portfolio-items .project ').removeClass('col-xs-6').removeClass('col-xs-3').removeClass('col-xs-4').addClass('col-xs-6');$('#portfolio-items').isotope({ filter: '*' })"><i class="fa fa-stop"></i></a>
+            </li>
+            <li class="pull-right scale-grid"><a onclick="$('#portfolio-items .project').removeClass('col-xs-6').removeClass('col-xs-3').removeClass('col-xs-4').addClass('col-xs-4');$('#portfolio-items').isotope({ filter: '*' })"><i class="fa fa-th-large"></i></a>
+            </li>
+            <li class="pull-right scale-grid"><a onclick="$('#portfolio-items .project').removeClass('col-xs-6').removeClass('col-xs-3').removeClass('col-xs-4').addClass('col-xs-3');$('#portfolio-items').isotope({ filter: '*' })"><i class="fa fa-th"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 well shadow">
+      <div style="position: relative; overflow: hidden; height: 400px;" class="row isotope" id="portfolio-items">
+        {% for post in site.portfolios %}
+
+
+        <div class="col-xs-6 col-sm-4 col-md-3 project recent" data-tags="{{post.tags}}">
+          <div class="thumbnail link">
+           {% if post.image %}
+           {% assign imageUrl = post.image %}
+           {% else %}
+           {% assign imageUrl = http://placehold.it/450x300 %}
+           {% endif %}
+            <a href="{{ post.url }}" title="{{ post.title }}">
+              <img src="{{% imageUrl %}}" title="{{ post.title }}" alt="" style="max-width: 458px; max-height: 290px;">
+            </a>
+            <div class="project-description">
+              <i class="fa fa-heart"></i>
+              <b class="project-name"><a href="{{ post.url }}" title="{{ post.title }}" style="color: #666; text-decoration: none;">{{ post.title }}</a></b>
+            </div>
+            <span style="top: 69px;" class="link-overlay"><i class="fa fa-link fa-2x"></i></span>
+          </div>
+
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
