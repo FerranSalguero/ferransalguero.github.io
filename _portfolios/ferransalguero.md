@@ -1,7 +1,6 @@
 ---
 layout: default
 selected-nav: portfolio
-sitemap: false
 ---
 
 Ferran Salguero's blog
