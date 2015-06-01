@@ -49,10 +49,10 @@ sitemap: false
            {% if post.image %}
            {% assign imageUrl = post.image %}
            {% else %}
-           {% assign imageUrl = http://placehold.it/450x300 %}
+           {% assign imageUrl = 'http://placehold.it/450x300' %}
            {% endif %}
             <a href="{{ post.url }}" title="{{ post.title }}">
-              <img src="{{% imageUrl %}}" title="{{ post.title }}" alt="" style="max-width: 458px; max-height: 290px;">
+              <img src="{{ imageUrl }}" title="{{ post.title }}" alt="" style="max-width: 458px; max-height: 290px;">
             </a>
             <div class="project-description">
               <i class="fa fa-heart"></i>
