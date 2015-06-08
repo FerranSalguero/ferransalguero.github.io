@@ -1,6 +1,7 @@
 ---
 layout: default
 selected-nav: portfolio
+title: Motivate
 ---
 
 Motivate

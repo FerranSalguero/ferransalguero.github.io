@@ -1,6 +1,7 @@
 ---
 layout: default
 selected-nav: portfolio
+title: Ferran Salguero's blog
 ---
 
 Ferran Salguero's blog
