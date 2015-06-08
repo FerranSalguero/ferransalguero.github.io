@@ -1,0 +1,50 @@
+---
+---
+
+.project 
+{
+  .project-description {
+    position: relative;
+    text-align: left;
+    padding: 14px 20px 14px 12px;
+    background: none repeat scroll 0% 0% #FFF;
+    font-size: 0.9em;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  b {
+    color: #666;
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.link-overlay {
+  opacity: 0;
+  background-color: #666;
+  border-radius: 21px;
+  transition: opacity 0.2s ease-in-out 0s;
+  position: absolute;
+  left: 50%;
+  width: 42px;
+  height: 42px;
+  margin-left: -21px;
+  margin-top: -21px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 7px;
+  i {
+    color: #ccc;
+  }
+}
+
+.link:hover .link-overlay {
+  opacity: 1;
+}
+
+.nav-pills a {
+  cursor: pointer;
+}
