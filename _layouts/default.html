@@ -16,10 +16,9 @@
 				</div>
 				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 					<ul class="nav navbar-nav" id="main-nav" data-selected="{{ page.selected-nav }}">
-						<!-- <li><a href="#services">Services</a></li>
-						<li><a href="#portfolio">Work</a></li> -->
 						<li><a href="/#contact" data-target="#contact">Contact</a></li>
-						<li data-id="blog"><a href="/blog/">Blog</a>
+						<li data-id="portfolio"><a href="/portfolio/" data-toggle="tooltip" data-placement="bottom" title="Check some of my recent work">Portfolio</a></li>
+                        <li data-id="blog"><a href="/blog/">Blog</a>
                        {% if page.private %}
                        <li class="active"><a href="/checklists/">Checklists</a></li>
                        {% endif %}
