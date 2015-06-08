@@ -49,4 +49,4 @@ gems:
 collections:
   portfolios:
     output: true
-    permalink: /portfolio/:path/
+    permalink: /portfolio/:path.html
