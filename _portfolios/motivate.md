@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: article
 selected-nav: portfolio
 title: Motivate
 ---
-
-Motivate
-========
 
 A *motivational* tool for sport *aficionados* and Strava users
 

@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: article
 selected-nav: portfolio
 title: Ferran Salguero's blog
 ---
-
-Ferran Salguero's blog
-======================
 
 * Simple collaborative personal website/blog
 * Easy editing through Github/Text editor
