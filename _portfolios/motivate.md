@@ -29,4 +29,11 @@ Technologies
 * Using Logentris with NLog
 * Miniprofiler
 * Humanizer
-* SharpGPX 
+* SharpGPX
+* Source code hosted on Bitbucket using Hg
+
+Releases
+--------
+
+* Released v0.1.3 on 2015-06-05 with 370 commits
+* First commit on 2014-05-24
