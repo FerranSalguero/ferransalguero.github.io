@@ -39,9 +39,8 @@ scripts: portfolio
       </div>
       <hr />
       <div class="row" id="portfolio-items">
-        {% for post in site.portfolios %}
-
-
+        {% assign pages = site.portfolios | sort:"weight"  %}
+        {% for post in pages reversed %}
         <div class="col-xs-6 col-sm-3 project recent" data-tags="{{post.tags}}">
           <div class="thumbnail link">
            {% if post.image %}
@@ -50,12 +49,16 @@ scripts: portfolio
            {% assign imageUrl = 'http://placehold.it/450x300' %}
            {% endif %}
             <a href="{{ post.url }}" title="{{ post.title }}">
-              <img src="{{ imageUrl }}" title="{{ post.title }}" alt="" style="max-width: 458px; max-height: 290px;">
+              <img src="{{ imageUrl }}" title="{{ post.title }} {{ post.subtitle }}" data-toggle="tooltip" alt="thumbnail" style="max-width: 458px; max-height: 290px;">
             </a>
             <div class="project-description">
-              <b class="project-name"><a href="{{ post.url }}" data-toggle="tooltip" data-placement="bottom" data-container="body" title="{{ post.title }} {{ post.subtitle }}"><i class="fa fa-heart"></i> {{ post.title }}</a></b>
+              <b class="project-name"><a href="{{ post.url }}" data-toggle="tooltip" data-placement="bottom" data-container="body" title="{{ post.subtitle }}">
+              {% if post.icon %}
+              <i class="fa fa-{{ post.icon }}"></i>
+              {% endif %}
+              {{ post.title }}</a></b>
             </div>
-            <span style="top: 69px;" class="link-overlay"><i class="fa fa-link fa-2x"></i></span>
+            <!-- <span style="top: 69px;" class="link-overlay"><i class="fa fa-link fa-2x"></i></span> -->
           </div>
 
         </div>
