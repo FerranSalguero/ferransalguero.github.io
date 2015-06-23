@@ -4,6 +4,7 @@ selected-nav: portfolio
 title: Motivate
 project-url: http://motivate.apphb.com/
 priority: 1
+icon: heart
 ---
 
 A *motivational* tool for sport *aficionados* and Strava users
