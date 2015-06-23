@@ -35,5 +35,5 @@ Technologies
 Releases
 --------
 
-* Released v0.1.3 on 2015-06-05 with 370 commits
+* Released v0.1.3 on 2015-06-19 with 390 commits
 * First commit on 2014-05-24
