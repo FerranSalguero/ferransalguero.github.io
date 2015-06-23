@@ -3,7 +3,7 @@ layout: article
 selected-nav: portfolio
 title: Motivate
 project-url: http://motivate.apphb.com/
-weight: 1
+priority: 1
 ---
 
 A *motivational* tool for sport *aficionados* and Strava users

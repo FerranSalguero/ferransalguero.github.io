@@ -39,8 +39,8 @@ scripts: portfolio
       </div>
       <hr />
       <div class="row" id="portfolio-items">
-        {% assign pages = site.portfolios | sort:"weight"  %}
-        {% for post in pages reversed %}
+        {% assign pages = site.portfolios | sort:"priority"  %}
+        {% for post in pages %}
         <div class="col-xs-6 col-sm-3 project recent" data-tags="{{post.tags}}">
           <div class="thumbnail link">
            {% if post.image %}
