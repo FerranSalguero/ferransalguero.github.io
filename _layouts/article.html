@@ -6,12 +6,20 @@ layout: default
     <div class="row">
         <div class="col-xs-12">
             <h1 class="title" itemprop="name">{{ page.title }}
-            {% if page.subtitle %}
-            <small>{{ page.subtitle }}</small>
-            {% endif %}
+                {% if page.subtitle %}
+                <small>{{ page.subtitle }}</small>
+                {% endif %}
             </h1>
             <!--  include post/meta.html  -->
-
+            {% if page.project-url %}
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="btn-group" role="group">
+                        <a class="btn" href="{{ page.project-url }}" title="Check website" data-toggle="tooltip" data-placement="right"><i class="fa fa-link fa-3x"></i></a>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
             <div class="entry-content" itemprop="articleBody">{{ content }}</div>
         </div>
     </div>
