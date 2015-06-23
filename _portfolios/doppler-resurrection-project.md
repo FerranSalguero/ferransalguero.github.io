@@ -3,6 +3,7 @@ layout: article
 selected-nav: portfolio
 title: DRI
 subtitle: Doppler Resurrection Initiative
+priority: 3
 ---
 
 * Public release of Podcast downloader app Doppler v3 released under open source code license

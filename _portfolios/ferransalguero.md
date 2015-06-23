@@ -2,6 +2,8 @@
 layout: article
 selected-nav: portfolio
 title: Ferran Salguero's blog
+project-url: http://ferransalguero.github.io/
+priority: 1
 ---
 
 * Simple collaborative personal website/blog

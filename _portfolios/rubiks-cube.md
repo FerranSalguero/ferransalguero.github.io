@@ -3,6 +3,7 @@ layout: article
 selected-nav: portfolio
 tag: working
 title: Rubik's cube
+priority: 3
 ---
 
 A Rubik's cube game for mobile, PC and consoles.

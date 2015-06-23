@@ -4,6 +4,8 @@ selected-nav: portfolio
 tag: released, halted
 title: WM
 subtitle: Wishlist Manager
+project-url: http://wmhomepage.apphb.com/
+priority: 2
 ---
 
 WM is a Windows price tracking companion app
