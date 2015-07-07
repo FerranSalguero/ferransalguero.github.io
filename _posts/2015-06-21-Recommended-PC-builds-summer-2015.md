@@ -4,6 +4,8 @@ title: Recommended PC builds Summer 2015
 date: 2015-06-21
 ---
 
+Starting this summer I want to give some PC rig configurations from budget to gamer and, of course, an advanced user. Some components can be used to upgrade your existing computer, like an [SSD][7] or a new graphic card.
+
 Budget PC
 ---------
 
@@ -27,3 +29,4 @@ Budget PC
 [4]: http://wheretobuy.apphb.com/us/Asus%20Radeon%20R7%20260X
 [5]: http://wheretobuy.apphb.com/us/WD%207200rpm
 [6]: http://wheretobuy.apphb.com/us/Corsair%20Builder%20Series%20CX%20600
+[7]: http://wheretobuy.apphb.com/ssd
