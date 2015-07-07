@@ -12,12 +12,13 @@ A *motivational* tool for sport *aficionados* and Strava users
 Features
 --------
 
-* Segment time comparison and time to get better positions
+* Segment time to get better positions
 * Find your top rivals
 * Route finder from your starred segments
-* Merge routes
-* Feature requests
+* Visual GPX route merge keeping elevation and speed from sources
 * Supporters funding with donations
+* Feature requests for supporters
+* Activities and segment stats
 * Periodic releases
 * Public access to bug reporting
 
@@ -38,5 +39,6 @@ Technologies
 Releases
 --------
 
-* Released v0.1.3 on 2015-06-19 with 390 commits
+* Released v0.1.5 on 2015-07-06 on revision 420
+* Released v0.1.3 on 2015-06-19 on revision 388
 * First commit on 2014-05-24
