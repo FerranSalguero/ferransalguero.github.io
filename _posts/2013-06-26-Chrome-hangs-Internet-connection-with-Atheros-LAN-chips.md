@@ -4,7 +4,7 @@ title: Chrome hangs internet connection with Atheros LAN chips
 date: 2015-07-14
 ---
 
-From time to time I found that Chrome hangs my internet connection on typical tasks like uplopading an image, I had resolved this problem a few years ago and suddenly I found the same problem after installing Windows 8.
+From time to tine I found that Chrome hangs my internet connection on typical tasks like uploading an image, I had resolved this problem a few years ago and suddenly I found the same problem after installing Windows 8.
 
 As it turns out, the drivers for the _Atheros L1 Gigabit Ethernet_ controller, when using **Windows 7** or, as I found out recently, in **Windows 8**, are unable to support task offloading, resulting in disconnecting current internet connection which can only be solved disabling and re-enabling the connection.
 
