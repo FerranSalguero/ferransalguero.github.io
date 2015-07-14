@@ -9,13 +9,20 @@ icon: heart
 
 A *motivational* tool for sport *aficionados* and Strava users
 
-Features
---------
+Highlighted features
+--------------------
+
+Visual GPX route merge keeping elevation and speed from sources
+
+![GPX Route Merge](/images/portfolio/route-merge.jpg)
+
+
+More features
+-------------
 
 * Segment time to get better positions
 * Find your top rivals
 * Route finder from your starred segments
-* Visual GPX route merge keeping elevation and speed from sources
 * Supporters funding with donations
 * Feature requests for supporters
 * Activities and segment stats
