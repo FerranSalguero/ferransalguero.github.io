@@ -4,7 +4,8 @@ title: Recommended PC builds Summer 2015
 date: 2015-07-15
 ---
 
-Starting this summer I want to give some PC rig configurations from budget to gamer and, of course, an advanced user. Some components can be used to upgrade your existing computer, like an [SSD][7] or a new graphic card. I want to set 3 typical tiers, **budget** around $500, advanced $800 and top at $1200.
+Starting this summer I want to give some PC rig configurations from budget to gamer and, of course, an advanced user. Some components can be used to upgrade your existing computer, like an [SSD][7] or a new graphic card. I want to set 3 typical tiers, **budget** around $500, **advanced** $800 and **top** at $1200.
+We will use The Witcher as a benchmarking tool, as it is the recent game more demanding on your computer resources.
 
 Budget
 ------
