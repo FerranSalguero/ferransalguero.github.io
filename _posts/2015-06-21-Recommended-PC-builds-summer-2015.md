@@ -53,7 +53,7 @@ A top-tier PC, unlocked, The Witcher 3 at a ultra quality:
 * Graphics: [Asus GTX 980 Ti 6GB $660][17]
 * CPU Cooler: [Cooler Master Hyper 212 EVO $35][12]
 * Hard drive: [Samsung 850 Pro 256GB $140][18]
-* Power supply: [Corsair Builder Series CX 600 $40][19]
+* Power supply: [Corsair Builder Series CX 600 $40][6]
 
 **Total: $1440**
 
