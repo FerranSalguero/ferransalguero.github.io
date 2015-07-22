@@ -11,6 +11,9 @@ Once Web Essentials is installed you need to configure on the Tools -> Options m
 
 ![Autoprefixer config](/images/posts/autoprefixer.jpg)
 
+[Update 2015-07-22]
+Sadly on Visual Studio 2015 Web Essentials does not support autoprefixer.
+
 
 
 [1]: http://vswebessentials.com/
