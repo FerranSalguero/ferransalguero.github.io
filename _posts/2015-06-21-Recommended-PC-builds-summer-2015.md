@@ -7,7 +7,7 @@ date: 2015-07-15
 Starting this summer I want to give some PC rig configurations from budget to gamer and, of course, an advanced user. Some components can be used to upgrade your existing computer, like an [SSD][7] or a new graphic card. I want to set 3 typical tiers, **budget** around $500, **advanced** $800 and **top** at $1200.
 We will use The Witcher as a benchmarking tool, as it is the recent game more demanding on your computer resources.
 
-Budget
+Budget<a class="anchor" id="budget"></a>
 ------
 
 A good configuration for playing last year games or The Witcher 3 at low quality:
@@ -25,7 +25,7 @@ A good configuration for playing last year games or The Witcher 3 at low quality
 Under the initial $500 budget, probably the difference can be used to get an SSD like the 2nd tier build.
 
 
-Advanced
+Advanced<a class="anchor" id="advanced"></a>
 --------
 
 A mid-tier PC, unlocked, The Witcher 3 at a decent quality:
@@ -43,7 +43,7 @@ A mid-tier PC, unlocked, The Witcher 3 at a decent quality:
 A little over budget but worth the extra penny, paying a little more for the 4GB video card can extend the life of this build a few years more.
 
 
-Top
+Top<a class="anchor" id="top"></a>
 ---
 
 A top-tier PC, unlocked, The Witcher 3 at a ultra quality:
