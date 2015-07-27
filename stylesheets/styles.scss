@@ -32,6 +32,13 @@ a {
   &:hover{
     text-decoration: none;
   }
+
+  &.anchor{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+  }
 }
 
 header a
@@ -52,6 +59,8 @@ header a
   }
 
 }
+
+
 
 .navbar-brand {
   span {
@@ -278,6 +287,8 @@ img {
 
 .meta {
   color:#999;
+  margin-bottom: 5px;
+  margin-top: -5px;
 }
 
 /*header {
