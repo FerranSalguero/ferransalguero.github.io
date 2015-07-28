@@ -25,7 +25,7 @@ Preparing packaged boxes
 
 Download Vagrant boxes provided by [modern.ie][1]{:rel="nofollow"} and install following [this method][2]{:rel="nofollow"}, configure them to your necessities (proxy settings, updates, needed software, etc.) and then you will be able to repack with:
 
-    `vagrant package --output "yourboxname"
+    vagrant package --output "yourboxname"
 
 We will not repackage the Vagrant file, as we will save it in our repository to easy setup on our team.
 
