@@ -12,9 +12,10 @@ Once Web Essentials is installed you need to configure on the Tools -> Options m
 ![Autoprefixer config](/images/posts/autoprefixer.jpg)
 
 [Update 2015-07-22]
-Sadly on Visual Studio 2015 Web Essentials does not support autoprefixer.
+Sadly on Visual Studio 2015 Web Essentials does not support autoprefixer, but we could [use Gulp to run a task that executes autoprefixer on our css][3].
 
 
 
 [1]: http://vswebessentials.com/
 [2]: https://github.com/ai/browserslist#queries
+[3]: /blog/Using-autoprefixer-sass-coffeescript-with-gulp-vnext-visual-studio-2015/
