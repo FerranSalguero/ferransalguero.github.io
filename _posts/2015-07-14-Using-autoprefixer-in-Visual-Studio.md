@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Using autoprefixer in Visual Studio
+lastmod: 2015-08-26
 ---
 
 Autoprefixer helps completing your CSS stylesheets adding vendor specific prefixes to rules making your styles more compatible with more browsers, usually old versions.
@@ -11,7 +12,7 @@ Once Web Essentials is installed you need to configure on the Tools -> Options m
 
 ![Autoprefixer config](/images/posts/autoprefixer.jpg)
 
-[Update 2015-07-22]
+[Update 2015-08-26]
 Sadly on Visual Studio 2015 Web Essentials does not support autoprefixer, but we could [use Gulp to run a task that executes autoprefixer on our css][3].
 
 
