@@ -2,7 +2,14 @@
 layout: article
 title: Recommended PC builds Summer 2015
 date: 2015-07-15
+lastmod: 2015-09-15
 ---
+
+[Update 2015-09-15]
+Last month Intel announced their new processors based on a new socket, making current most used socket obsolete, so now that this processors are getting widely available it is a good time to follow the prices of this setups to wait for good offers.
+Also wait for the fall roundup to check for our top build with the new processors.
+
+-----------------------------------------------------------------
 
 Starting this summer I want to give some PC rig configurations from budget to gamer and, of course, an advanced user. Some components can be used to upgrade your existing computer, like an [SSD][7] or a new graphic card. I want to set 3 typical tiers, **budget** around $500, **advanced** $800 and **top** at $1200.
 We will use The Witcher as a benchmarking tool, as it is the recent game more demanding on your computer resources.
