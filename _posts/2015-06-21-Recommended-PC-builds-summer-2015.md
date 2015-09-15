@@ -5,7 +5,7 @@ date: 2015-07-15
 lastmod: 2015-09-15
 ---
 
-[Update 2015-09-15]
+[Update 2015-09-15] 
 Last month Intel announced their new processors based on a new socket, making current most used socket obsolete, so now that this processors are getting widely available it is a good time to follow the prices of this setups to wait for good offers.
 Also wait for the fall roundup to check for our top build with the new processors.
 
