@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Chrome hangs internet connection with Atheros LAN chips
-date: 2015-07-14
+lastmod: 2015-07-14
 ---
 
 From time to tine I found that Chrome hangs my internet connection on typical tasks like uploading an image, I had resolved this problem a few years ago and suddenly I found the same problem after installing Windows 8.

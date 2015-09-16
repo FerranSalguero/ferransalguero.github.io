@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Looking for a DDR3 1333Mhz Ripjaws 4GB module from Jun 2014
-date: 2015-06-04
+lastmod: 2015-06-04
 ---
 
 As my computer has already a few years it isn't compatible with some newer models of this same memory, I tested it myself, I got already a module fabricated on Jun 2014 that works fine but a few weeks back I bought one on a local store from Oct 2014 that didn't work on my computer and I had to return it.

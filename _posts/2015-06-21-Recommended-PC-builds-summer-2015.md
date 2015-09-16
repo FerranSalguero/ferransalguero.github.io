@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Recommended PC builds Summer 2015
-date: 2015-07-15
 lastmod: 2015-09-15
 ---
 
