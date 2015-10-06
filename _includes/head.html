@@ -5,6 +5,7 @@
 <html>
 {% endif %}
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 	<meta name="author" content="{{ site.author }}">
@@ -20,6 +21,7 @@
 	{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 
 	<!-- http://t.co/dKP3o1e -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,12 +32,11 @@
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700,800' rel='stylesheet' type='text/css'> -->
-	<link href="/images/favicon.png" rel="shortcut icon">
+	<link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon">
 	<link rel="stylesheet" href="http://ferransalguero.github.io/bootstrap-blog/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href="/stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
 	{% for style in page.styles %}
 	<link href="/stylesheets/{{ style }}.css" media="screen, projection" rel="stylesheet" type="text/css">
 	{% endfor %}
-	<!-- <link rel="stylesheet" href="/css/code.css" type="text/css"> -->
 </head>
