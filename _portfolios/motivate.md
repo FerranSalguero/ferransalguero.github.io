@@ -5,6 +5,11 @@ title: Motivate
 project-url: http://motivate.apphb.com/
 priority: 1
 icon: heart
+skills:
+    - .net 
+    - css
+    - datatables
+    - mongoDB
 ---
 
 A *motivational* tool for sport *aficionados* and Strava users
