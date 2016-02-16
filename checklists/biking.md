@@ -8,18 +8,22 @@ sitemap: false
 Biking
 ======
 
+Basic:
+------
+
 * [ ] Culotte / Shorts + Underpants + Belt
 * [ ] Maillot
 * [ ] GPS + HR + Route
 * [ ] Water bottle
-* [ ] Padlock key
 * [ ] Mobile
+* [ ] Glasses
 
 
 Optionals:
 ---------
 
 * [ ] Backpack
+* [ ] Hydration pack
 * [ ] Flashlight
 * [ ] Jacket / Raincut
 * [ ] Arm/Knee warmers
@@ -27,3 +31,23 @@ Optionals:
 * [ ] Pump
 * [ ] Tube
 * [ ] Food
+* [ ] Towel
+* [ ] Knee pads
+* [ ] Neck warmer
+* [ ] Gloves
+
+
+Long rides:
+-----------
+
+* [ ] Bars
+* [ ] Swiss knife
+* [ ] Snacks
+* [ ] Recovery drink
+* [ ] Spare maillot
+
+Night rides:
+------------
+
+* [ ] Extra layer
+* [ ] Extra light
