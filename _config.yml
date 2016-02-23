@@ -43,6 +43,8 @@ sass:
 
 gems:
   - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-coffeescript
 
 
 collections:
