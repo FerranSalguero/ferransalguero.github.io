@@ -16,8 +16,8 @@ sitemap: false
     <div class="col-xs-12 col-sm-6 well shadow">
             <h1>Checklists</h1>
             <ul class="">
-                {% for list in page.all_lists %}{%
-                <li><a href="/checklists/{{ list }}.html">{{ list }}</a></li>
+                {% for list in page.all_lists %}
+                <li><a href="/checklists/{{ list }}/">{{ list }}</a></li>
                 {% endfor %}
             </ul>
         </div>
