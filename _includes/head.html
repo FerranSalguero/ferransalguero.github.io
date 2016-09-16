@@ -36,6 +36,9 @@
 	<link rel="stylesheet" href="http://ferransalguero.github.io/bootstrap-blog/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href="/stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
+	{% for style in layout.styles %}
+	<link href="/stylesheets/{{ style }}.css" media="screen, projection" rel="stylesheet" type="text/css">
+	{% endfor %}
 	{% for style in page.styles %}
 	<link href="/stylesheets/{{ style }}.css" media="screen, projection" rel="stylesheet" type="text/css">
 	{% endfor %}
