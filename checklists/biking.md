@@ -16,6 +16,7 @@ Basic:
 * [ ] Water bottle
 * [ ] Mobile
 * [ ] Glasses
+* [ ] Helmet
 
 
 Optionals:
