@@ -6,6 +6,7 @@ all_lists:
 - biking
 - hiking
 - software
+- commuting
 scripts:
 - checklists-index
 sitemap: false
