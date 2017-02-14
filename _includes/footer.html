@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="muted credit">
-                    Copyright © 2015 - Ferran Salguero's website content licensed under the Creative Commons <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>
+                    Copyright © 2006-{{ site.time | date: '%Y' }} - Ferran Salguero's website content licensed under the Creative Commons <a href="http://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>
                 </div>
             </div>
         </div>
@@ -13,6 +13,9 @@
 <!--<script src="/js/slash.js" async></script>-->
 <script src="http://ferransalguero.github.io/bootstrap-blog/dist/js/bootstrap.js"></script>
 <script src="/javascripts/scrolling.js"></script>
+{% for script in layout.scripts %}
+<script src="/javascripts/{{ script }}.js"></script>
+{% endfor %}
 {% for script in page.scripts %}
 <script src="/javascripts/{{ script }}.js"></script>
 {% endfor %}

@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Using-autoprefixer-sass-or-coffeescript-with-gulp-vnext-visual-studio-2015
+title: Using autoprefixer Sass or Coffeescript with Gulp, Vnext and Visual Studio 2015
 ---
 
-Last month I wrote about [using autoprefixer with Visual Studio][1] but as Visual Studio 2015 came out we found out that the extension that we used to execute autoprefixer (Web Essentials) was a bit different for Visual Studio 2015. So I dicided to seize the moment to explore the new paths that ASP.Net5 wants to introduce, as we can see in the sample project, with tools widely used in the front end development community like gulp or bower.
+Last month I wrote about [using autoprefixer with Visual Studio][1] but as Visual Studio 2015 came out we found out that the extension that we used to execute autoprefixer (Web Essentials) was a bit different for Visual Studio 2015. So I decided to seize the moment to explore the new paths that ASP.Net5 wants to introduce, as we can see in the sample project, with tools widely used in the front end development community like gulp or bower.
 
 Gulp, from their own description, is a tasks runner that works as a build system for the web ecosystem, from minification to compiling Sass or Coffeescript. To run those tasks you will need some plugins and a configuration file on the tasks to run.
 

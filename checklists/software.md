@@ -11,12 +11,14 @@ Software
 * [ ] Notepad++
 * [ ] Tortoise svn
 * [ ] tortoise hg
-* [ ] winmerge
+* [ ] kdiff
+* [ ] winmerge/beyond compare
 * [ ] pdf viewer
 * [ ] daemon tools
 * [ ] his
-* [ ] vs 2005
-* [ ] vs 2010
+* [ ] vs 2015
+* [ ] node
+* [ ] vs code
 * [ ] winamp
 * [ ] firefox
 * [ ] chrome
@@ -38,3 +40,16 @@ Software
 * [ ] revo
 * [ ] prtscr
 * [ ] paint.net
+* [ ] clipx
+* [ ] dropbox
+* [ ] garmin usb drivers
+* [ ] inkscape
+* [ ] ironpython 2.7.5
+* [ ] java
+* [ ] freemind
+* [ ] sql management studio
+* [ ] virtual box
+* [ ] sublime text
+* [ ] windirstat
+* [ ] vagrant
+* [ ] smplayer/vlc
