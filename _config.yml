@@ -41,13 +41,19 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 sass:
     style: compressed
 
-gems:
-  - jekyll-redirect-from
-  - jekyll-paginate
-  - jekyll-coffeescript
+# gems:
+  # - jekyll-redirect-from
+  # - jekyll-paginate
+  # - jekyll-coffeescript
 
 
 collections:
   portfolios:
     output: true
     permalink: /portfolio/:path.html
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-coffeescript
