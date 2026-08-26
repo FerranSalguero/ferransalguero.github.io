@@ -2,27 +2,28 @@
 # Blog Settings
 #
 author: Ferran Salguero
-description: 
-url: http://ferransalguero.github.io
+description: "Ferran Salguero - blog personal sobre desenvolupament de software, .NET, Azure i solucions informatiques a mesura."
+url: https://ferransalguero.github.io
 title: Ferran Salguero
-subtitle: 
-gravatar_url: 
+subtitle:
+gravatar_url:
 subscribe_rss: /atom.xml
 
 # Github repositories
-github_user: fsalguero
-github_repo_url: https://github.com/fsalguero/fsalguero.github.io
+github_user: FerranSalguero
+github_repo_url: https://github.com/FerranSalguero/ferransalguero.github.io
 
 # Twitter
 twitter_user: ferransalguero
 twitter_tweet_button: true
 
-# Disqus Comments
-disqus_short_name: ferransalguero
-disqus_show_comment_count: true
+# Disqus Comments (replaced by giscus)
+# disqus_short_name: ferransalguero
+# disqus_show_comment_count: true
 
-# Google Analytics
-google_analytics_tracking_id: UA-53197884-1
+# Google Analytics (GA4). Universal Analytics (UA-*) was shut down 2023-07-01.
+# Create a GA4 property and paste its Measurement ID (G-XXXXXXXXXX) below to re-enable analytics.
+google_analytics_tracking_id:
 
 
 #
