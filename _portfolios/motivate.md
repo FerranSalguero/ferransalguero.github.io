@@ -2,17 +2,19 @@
 layout: article
 selected-nav: portfolio
 title: Motivate
-project-url: http://motivate.apphb.com/
+project-url: https://motivate.geeknite.com
 priority: 1
 icon: heart
 skills:
-    - .net 
-    - css
-    - datatables
-    - mongoDB
+    - python
+    - flask
+    - postgresql
+    - strava
 ---
 
-A *motivational* tool for sport *aficionados* and Strava users
+A *motivational* tool for MTB sport *aficionados* — self-hosted segments, leaderboards and route tools.
+
+Rewritten in 2025 from the original ASP.NET version to Python/Flask after AppHarbor shut down. Deployed on Render with Neon Postgres.
 
 Highlighted features
 --------------------
@@ -25,32 +27,27 @@ Visual GPX route merge keeping elevation and speed from sources
 More features
 -------------
 
-* Segment time to get better positions
-* Find your top rivals
-* Route finder from your starred segments
-* Supporters funding with donations
-* Feature requests for supporters
-* Activities and segment stats
-* Periodic releases
-* Public access to bug reporting
+* Personal segment system — mark start/end on a route, auto-match GPX activities
+* Segment leaderboards and self-PRs
+* E-bike vs bike activity separation
+* Terrain detection via OSM
+* File import: GPX, TCX, FIT and Strava bulk-export zip
+* Route finder from starred segments
+* Premium tiers via Patreon
 
 
 Technologies
 ------------
 
-* ASP.NET 4.5 with MVC4
-* Ninject
-* Mongo DB with Official C# driver
-* Relies on Strava API v3 using RestSharp
-* Using Logentris with NLog
-* Miniprofiler
-* Humanizer
-* SharpGPX
-* Source code hosted on Bitbucket using Hg
+* Python 3.12 / Flask + Jinja2
+* SQLAlchemy 2.0 + Flask-Migrate / Alembic
+* Neon Postgres (production), SQLite (local)
+* Shapely for segment geometry matching
+* gpxpy, fitparse, Leaflet
+* Deployed on Render (auto-deploy on push)
 
-Releases
---------
+History
+-------
 
-* Released v0.1.5 on 2015-07-06 on revision 420
-* Released v0.1.3 on 2015-06-19 on revision 388
-* First commit on 2014-05-24
+* Original version (ASP.NET 4.5 / MongoDB) first committed 2014-05-24
+* Rewritten to Python/Flask in 2025 after AppHarbor shutdown

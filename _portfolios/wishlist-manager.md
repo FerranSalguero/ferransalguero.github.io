@@ -1,14 +1,15 @@
 ---
 layout: article
 selected-nav: portfolio
-tag: released, halted
+tag: archived
 title: WM
 subtitle: Wishlist Manager
-project-url: http://wmhomepage.apphb.com/
 priority: 2
 ---
 
-WM is a Windows price tracking companion app
+WM is a Windows price tracking companion app.
+
+**Status:** Archived. The backing service (Where to Buy) was shut down when AppHarbor discontinued their platform in January 2023.
 
 Features
 --------
@@ -24,8 +25,8 @@ Technologies
 ------------
 
 * WPF application
-* ClickOnce release, autupdatable
-* Using [#WhereToBuy][1] as tracking service
+* ClickOnce release, auto-updatable
+* Used [#WhereToBuy][1] as tracking service
 
 
-[1]: http://wheretobuy.apphb.com/
+[1]: /portfolio/where-to-buy.html
