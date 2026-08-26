@@ -2,6 +2,7 @@
 layout: article
 title: Using autoprefixer in Visual Studio
 lastmod: 2015-08-26
+description: "How to add autoprefixer CSS vendor-prefix processing to your Visual Studio workflow using the Web Essentials extension."
 ---
 
 Autoprefixer helps completing your CSS stylesheets adding vendor specific prefixes to rules making your styles more compatible with more browsers, usually old versions.

@@ -2,6 +2,7 @@
 layout: article
 title: Looking for a DDR3 1333Mhz Ripjaws 4GB module from Jun 2014
 lastmod: 2015-09-20
+description: "Personal search for a compatible DDR3 1333MHz G.Skill Ripjaws 4GB SO-DIMM module and lessons learned on RAM compatibility."
 ---
 
 [Update 2015-09-20]  

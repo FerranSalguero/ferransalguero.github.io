@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Internet Explorer version testing with VMs and Vagrant
+description: "How to set up Internet Explorer cross-version testing using free Microsoft VMs with Vagrant, without reinstalling Windows every time."
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Simple free personal unblocker in .NET
+description: "A simple open-source .NET web proxy you can self-host for free on Azure to access sites blocked by your ISP."
 ---
 
 Been quite some time since I posted anything but last month Appharbor stopped giving service, it was a simple cloud application service for .NET applications with a very good free tier, which I used extensively for testing, trying new tech and learn with personal projects. They were slow on the .NET core adoption and many of my sites were using the classic .NET framework.

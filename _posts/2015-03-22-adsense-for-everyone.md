@@ -6,7 +6,7 @@ lastmod: 2015-03-22
 description: "A plain-language explanation of AdSense metrics: CTR, RPM, CPC, CPM — and how to read your revenue reports."
 ---
 
-[![Example of indicators](https://i.imgur.com/teAzmHl.png){: .align-right}](Google AdSense)
+![Example of indicators](https://i.imgur.com/teAzmHl.png){: .align-right}
 
 It all started with the question: *How can I increase my RPM in Adsense?*, I saw that I did not understand what many of the terms are so I have been doing some research on the meaning of the **Adsense ****reports****.** When we enter at our **Adsense** page, assuming we have an account, we see our home tab with an overview were we can see some **concepts** that if we haven't researched or read about, we won't acknowledge.
 
@@ -55,8 +55,8 @@ Let's go with the statistics:
 
 AdSense *CTR (Click Through Rate)* is the number of the ad clicks divided by the number of page views.\
 *CTR = (Number of ad clicks* 100) / Number of page views\
-*If my blog has 10,000 page views in a month and 50 **AdSense** ad clicks then my CTR is 0,05%.\
-*CTR = (50 *100) / 10000 = 0,05%\
+*If my blog has 10,000 page views in a month and 50 **AdSense** ad clicks then my CTR is 0,5%.\
+*CTR = (50 * 100) / 10000 = 0,5%\
 *Higher CTR means that more **AdSense**ads have been clicked, so in the end means more earnings. So every **AdSense** publisher wants a higher CTR.\
 Also we must be cautious because some invalid clicks, as you may know if you read the **Adsense** terms, can be counted for the CTR, so as you can see some of these stats can be inaccurate.
 

@@ -3,6 +3,7 @@ layout: article
 title: Powershell recursive empty folder deletion script
 date: 2012-11-02
 lastmod: 2014-09-15
+description: "PowerShell script to recursively delete all empty folders in a directory tree, with a workaround for folders containing only whitespace in their names."
 ---
 
 I've been using _powershell_ to **automatize some tedious tasks** done through visual interface, this is a powerful tool and I recommend everybody with some programmatic skills look into to it. The last task has been removing empty directories in hierarchy, so the deepest directory being empty will be deleted, the parent, when all children directories are deleted for being empty will be deleted if it's empty, that's the main idea.
