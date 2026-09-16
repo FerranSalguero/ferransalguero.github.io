@@ -58,3 +58,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-coffeescript
+  # In the Gemfile since the start but never listed here, so Jekyll never loaded it
+  # and the one post using `redirect_to` rendered as an empty article instead of
+  # redirecting. GitHub Pages reads this list, not the Gemfile.
+  - jekyll-redirect-from
