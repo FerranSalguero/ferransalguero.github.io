@@ -2,7 +2,11 @@
 layout: article
 selected-nav: portfolio
 title: Motivate
-project-url: https://motivate.geeknite.com
+# No project-url on purpose: motivate.geeknite.com has been offline since
+# September 2026 and times out after ~21s, so the "Check website" button in
+# _layouts/article.html would send visitors to a hang. The layout wraps the
+# button behind an if-guard, so omitting the key simply drops it. Restore it
+# when the app is hosted again.
 priority: 1
 icon: heart
 skills:
@@ -14,7 +18,10 @@ skills:
 
 A *motivational* tool for MTB sport *aficionados* — self-hosted segments, leaderboards and route tools.
 
-Rewritten in 2025 from the original ASP.NET version to Python/Flask after AppHarbor shut down. Deployed on Render with Neon Postgres.
+Rewritten in 2025 from the original ASP.NET version to Python/Flask after AppHarbor shut down.
+
+**The public instance is offline since September 2026** and there is no demo to visit
+right now. The description below is what the application does when it is hosted.
 
 Highlighted features
 --------------------
@@ -44,7 +51,7 @@ Technologies
 * Neon Postgres (production), SQLite (local)
 * Shapely for segment geometry matching
 * gpxpy, fitparse, Leaflet
-* Deployed on Render (auto-deploy on push)
+* Deployed on Render (auto-deploy on push); last production host was Azure Container Apps
 
 History
 -------
