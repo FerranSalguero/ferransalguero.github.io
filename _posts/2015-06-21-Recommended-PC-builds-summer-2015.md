@@ -6,5 +6,5 @@ lastmod: 2026-09-16
 # is dead twice over: that host was emptied on 2026-09-16 and now only redirects, and the
 # 2015 post no longer exists on the blog either -- geek-blog's _redirects supersedes it with
 # the 2016 rebuild below. Pointing straight at the 2016 post avoids a chain through two 404s.
-redirect_to: https://blog.geeknite.com/2016/08/recommended-pascal-gpu-based-builds-summer-2016
+redirect_to: https://www.geeknite.com/2016/08/recommended-pascal-gpu-based-builds-summer-2016
 ---
